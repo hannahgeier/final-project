@@ -1,0 +1,63 @@
+body {
+    max-width: 1024px;
+  }
+  .container {
+    background-color: #fdf4f4;
+    margin: 20px 20px 20px 20px;
+  }
+  form {
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-primary {
+    background-color: #ffbaa6;
+    border: #ffbaa6;
+  }
+  .btn-primary:hover {
+    background-color: #061c2d;
+    border: #061c2d;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+    color: #061c2d;
+  }
+  h2 {
+    color: #061c2d;
+  }
+  h3 {
+    text-align: center;
+    color: #061c2d;
+  }
+  .emojiCurrent {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+  }
+  p {
+    text-align: center;
+    color: #061c2d;
+  }
+  .iconDayOne,
+  .iconDayTwo,
+  .iconDayThree,
+  .iconDayFour {
+    color: #ffbaa6;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+  }
+  .temperatureCurrent {
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  .dateCurrent,
+  .timeCurrent,
+  .descriptionCurrent {
+    text-align: center;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather forecast ☀️</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/82488e57ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-10">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id ="search-input"
+            placeholder="Enter your city..."
+          />
+          </div>
+        </div>
+        <div class="col-2">
+        <input type="submit" class="btn btn-primary" id ="submit-button" value="Search" />
+      </div>
+      </div>
+      </form>
+      <h1 class="city" id ="city-name" >NEW YORK CITY</h1>
+      <div class="weatherCurrent">
+              <div class="row">
+                <div class="col-4">
+      <h2 class="emojiCurrent">☀️</h2>
+      </div>
+      <div class="col-4">
+      <h2 class="temperatureCurrent" id= "current-temperature">35°C</h2>
+      </div>
+      <div class="col-4">
+      <h2 class="dateCurrent" id="current-date">SUNDAY, 24/07/2022</h2>
+      <h2 class="timeCurrent" id="current-time">10:55 AM</h2>
+      <h2 class="descriptionCurrent" id="current-weather-description">SUNNY</h2>
+      </div>
+      </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-3">
+          <h3 class="forecastDayOne">MON</h3>
+        </div>
+        <div class="col-3">
+          <h3 class="forecastDayTwo">TUE</h3>
+        </div>
+        <div class="col-3">
+          <h3 class="forecastDayThree">WED</h3>
+        </div>
+        <div class="col-3">
+          <h3 class="forecastDayFour">THU</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <i class="fa-solid fa-sun iconDayOne"></i>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-cloud-showers-heavy iconDayTwo"></i>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-sun iconDayThree"></i>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-cloud-sun iconDayFour"></i>
+        </div>
+        <br />
+      </div>
+        <div class="row">
+        <div class="col-3">
+          <h3 class="temperatureDayOne">33°C</p>
+        </div>
+        <div class="col-3">
+          <h3 class="temperatureDayTwo">27°C</p>
+        </div>
+        <div class="col-3">
+          <h3 class="temperatureDayThree">34°C</p>
+        </div>
+        <div class="col-3">
+          <h3 class="temperatureDayFour">28°C</p>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
